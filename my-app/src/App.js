@@ -17,7 +17,7 @@ const App  =() =>  {
 
     useEffect(() => {
       console.log("Effect has been run");
-    }, []);
+    }, [counter]);
 
 
     return (
